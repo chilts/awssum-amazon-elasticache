@@ -59,7 +59,7 @@ var ElastiCache = function(opts) {
 };
 
 // inherit from Amazon
-util.inherits(ElastiCache, amazon.Amazon);
+util.inherits(ElastiCache, amazon.AmazonSignatureV2);
 
 // --------------------------------------------------------------------------------------------------------------------
 // methods we need to implement from awssum.js/amazon.js
