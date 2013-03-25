@@ -1,6 +1,6 @@
 {
     "name" : "awssum-amazon-elasticache",
-    "description" : "NodeJS module to talk to Amazon ElastiCache.",
+    "description" : "AwsSum plugin for Amazon ElastiCache.",
     "version" : "1.0.0",
 
     "main" : "awssum-amazon-elasticache.js",
